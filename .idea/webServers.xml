@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="169d84f5-80a1-40fb-926e-129f137b09af" name="whs" url="http://localhost:63342/UNESCO_WHS">
+        <fileTransfer host="whs.aworldbridgelabs.com" port="5532" rootFolder="/var/www/whs/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5532" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
