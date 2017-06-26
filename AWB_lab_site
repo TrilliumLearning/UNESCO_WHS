@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <title>A World Bridge™ Labs</title>
+
+  </head>
+  
+    <header>
+      
+      <img src ="http://www.aworldbridgelabs.com/images/WB_Banner.jpeg"/>
+      
+    </header>
+  <body>
+    <h1>A World Bridge™ Labs</h1>
+    <p>A World Bridge™ Labs is a new website where project application development is showcased. The current projects feature data visualization utilizing the NASA World Wind geospatial 4D platform. The new site is currently under development: <a href ="http://www.AWorldBridgeLabs.com/">Click to View</a></p>
+
+    <p><a href ="https://worldwind.arc.nasa.gov/">NASA World Wind</a> is a free, open source API for a virtual globe. World Wind allows developers to quickly and easily create interactive visualizations of 3D globe, map and geographical information. Organizations across the world use World Wind to monitor weather patterns, visualize cities and terrain, track the movement of planes, vehicles and ships, analyze geospatial xdata, and educate people about the Earth.
+    </p>
+      
+   
+<p> <b>Site:</b>  A World Bridge at Fei Tian Academy of the Arts </p>
+
+<a href ="http://whs.aworldbridgelabs.com/"> <b> Project:</b> United Nations Educational, Scientific and Cultural Organization (UNESCO) World Heritage Site</a>
+
+<p><b>Description:</b>  New York’s Fei Tian Academy of the Arts – A World Bridge students are making a visit to any UNESCO World Heritage site as easy as it is informative. While viewing the Earth from space, all World Heritage sites are visible.  With just a click you zoom from a satellite view right to the World Heritage site, and easily access all the culturally rich information for that site. </p>
+
+<p>As part of this effort, the students have carefully analyzed all the UNESCO World Heritage site data. By cross-checking with multiple quality assurance/quality control (QA/QC) procedures, they have identified and corrected several location errors, where the site is not located where it is supposed to be. </p>
+
+<p>Enjoy access to the World Heritage sites by continent, country and other criteria. Each World Heritage placemark is interactive, displaying a dialog box with a summary of site information, and links to the UNESCO website.</p>
+<img src ="http://www.aworldbridgelabs.com/images/whsscreen_med.jpeg" alt="WHS Screen Image"/>
+<br><br/>
+
+<p><b>Site:</b>  A World Bridge at Fei Tian Academy of the Arts in Collaboration with Kodiak, Alaska</p>
+
+<a href =" http://24.237.235.227/wwdev/CitySmart/CitySmartPrototype.html"> Project: CitySmart - WorldWise
+</a>
+
+<p><b>Description:</b>  New York’s Fei Tian Academy of the Arts in collaboration with students from Kodiak, Alaska – A World Bridge students are developing a CitySmart web app that visualizes the entire infrastructure for a city. All the power lines, water, sewer, communication and roads, etcetera, are mapped accurately including all databased information about each item, i.e., transmission pole, manhole cover, road location, etc. </p>
+<img src ="http://www.aworldbridgelabs.com/images/gridscreen_med.jpeg" alt= "Gridscreen Image"/>
+
+<br></br>
+
+<p><b>Site:</b>  A World Bridge at Kodiak Island Borough School District</p>
+
+<a href ="http://esp.trilliumlearning.com/"><b>Project:</b>  Earthquake Signal Precursors</a>
+
+<p><b>Description:</b>  Students acquire precursor earthquake data from sensor arrays and develop real-time data visualization models utilizing NASA WebWorldWind. The data server resides within A World Bridge Project server in Kodiak, Alaska. This team is developing ground station technology platforms, which acquire continuous magnetic field information at 50Hz from remote locations.
+</p>
+<p>Data acquisition stations continuously transmit data to servers designed to record, visualize, and archive this data. Data visualization events represent 3-axis precursor magnetic anomalies as dynamic vectors, providing advanced warning via anomaly detection algorithms for specific areas of increasing tectonic plate stress. Visualizations are then accessible through the ESP NASA World Wind application.</p>
+<img src ="http://www.aworldbridgelabs.com/images/espscreen_med.jpeg" alt= "ESP Screen Image"/>
+
+<footer>
+  <p>© Trillium Learning 2015 </p>
+  <a href="mailto:info@trilliumlearning.com?Subject=Hello" target="_top">info@trilliumlearning.com</a>
+  <a href ="https://www.trilliumlearning.net">www.trilliumlearning.net</a>
+  <p>+1 973-907-2332</p>
+</footer>
+<!--<img src ="http://www.aworldbridgelabs.com/images/" -->
+
+  </body>
+</html>
