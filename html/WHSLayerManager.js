@@ -229,7 +229,7 @@ define(function () {
             } else if (returnconti === "Antarctica") {
                 prefix = "AN.";
                 alert("There is no place mark available for Antarctica!");
-                return;
+                //return;
             } else if (returnconti === "Oceania") {
                 prefix = "OC.";
             }
