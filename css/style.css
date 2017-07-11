@@ -84,12 +84,12 @@ input:checked + .contislider:before {
 
 /* popupBox (background) */
 .popup-group{
-    top: 0; left: 0; position: fixed; width: 100%; height: 120%;
-    background-color: rgba(220, 220, 220, 0.51); display: none; max-height: calc(1000vh - 210px); overflow: scroll
+    top: 0; left: 0; position: fixed; width: 100%; height: 100%;
+    background-color: rgba(220, 220, 220, 0.51); display: none;
 }
 
 .popupBoxWrapper{
-    width: 550px; margin: 50px auto; text-align: left; overflow-y: scroll; z-index: 1;
+    max-width: calc(100vh - 110px); margin: 50px auto; text-align: left; max-height: calc(100vh - 110px); overflow-y: auto;
 }
 
 .popupBoxContent{
@@ -248,9 +248,9 @@ input:checked + .contislider:before {
     border: none;
     padding: 5px;
     font: 24px/36px sans-serif;
-    width: 275px;
+    width: 100%;
     height: 470px;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 ::-webkit-scrollbar{
