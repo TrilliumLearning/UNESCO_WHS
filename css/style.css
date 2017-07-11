@@ -93,7 +93,7 @@ input:checked + .contislider:before {
 }
 
 .popupBoxWrapper{
-    max-width: calc(100vh - 110px); margin: 50px auto; text-align: left; max-height: calc(100vh - 110px); overflow-y: auto;
+    max-width: calc(60%); margin: 10% auto; text-align: left; max-height: calc(100vh - 50px); overflow: auto; z-index: 1;
 }
 
 .popupBoxContent{
@@ -121,7 +121,7 @@ input:checked + .contislider:before {
 
 /* The Close Button */
 .close {
-    color: #6bb8ae;
+    color: #ea0700;
     float: right;
     font-size: 28px;
     font-weight: bold;
