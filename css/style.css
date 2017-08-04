@@ -84,20 +84,24 @@ input:checked + .contislider:before {
 
 .col-sm-9{
     position: relative;
-
 }
+
 /* popupBox (background) */
 .popup-group{
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-    background-color: rgba(220, 220, 220, 0.51); display: none;
+    background-color: rgba(220, 220, 220, 0.51); display: none
 }
 
+/*.popupBoxWrapper{
+    width: 550px; margin: 50px auto; text-align: left; overflow: scroll; z-index: 1;
+}*/
+
 .popupBoxWrapper{
-    max-width: calc(60%); margin: 10% auto; text-align: left; max-height: calc(100vh - 50px); overflow: auto; z-index: 1;
+    max-width: calc(60%); width: 100%; margin: 10% auto; text-align: left; max-height: calc(80%); overflow: auto; z-index: 1
 }
 
 .popupBoxContent{
-    background-color: #FFF; padding: 15px;
+    background-color: #FFF; padding: 15px; overflow: scroll;
 }
 
 
@@ -121,7 +125,7 @@ input:checked + .contislider:before {
 
 /* The Close Button */
 .close {
-    color: #ea0700;
+    color: red;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -254,7 +258,7 @@ input:checked + .contislider:before {
     font: 24px/36px sans-serif;
     width: 100%;
     height: 470px;
-    overflow-y: auto;
+    overflow: auto;
 }
 
 ::-webkit-scrollbar{

@@ -30,6 +30,7 @@ app.get('/index.htm', function (req, res) {
 
 
 app.get('/search', function (req, res) {
+    "use strict";
     names = req.query.keywords;
     //console.log(names);
     connection.query('select * from Country Where ContinentCode <> "" AND CountryName = ?', [names], function(err, results, fields) {
@@ -85,6 +86,7 @@ app.get('/search', function (req, res) {
 });
 
 app.get('/searchCountry', function (req, res) {
+    "use strict";
     connection.query('Select CountryCode, CountryName, ContinentCode From Country Where ContinentName <> "" ', function(err, results, fields) {
         if (err) throw err;
 
@@ -100,6 +102,7 @@ app.get('/searchCountry', function (req, res) {
 });
 
 app.get('/searchSite', function (req, res) {
+    "use strict";
 
     var sql1 = 'Select SiteID, CountryCode, CountryName, ContinentCode, CorrectLatiDecimal AS LatiDecimal, CorrectLongDecimal AS LongDecimal From Sites WHERE CorrectLatiDecimal <> 0 and CorrectLongDecimal <> 0; ';
     var sql2 = 'Select SiteID, CountryCode, CountryName, ContinentCode, LatiDecimal, LongDecimal From Sites WHERE CorrectLatiDecimal = "" AND CorrectLongDecimal = ""; ';
@@ -125,6 +128,7 @@ app.get('/searchSite', function (req, res) {
 
 app.get('/autoSuggestion', function (req, res) {
 
+    "use strict";
     var sql1 = 'Select ContinentName AS value from Continent; ';
     var sql2 = 'Select CountryName AS value from Country Where ContinentCode <> ""; ';
     var sql3 = 'Select SiteName AS value from Sites; ';
@@ -150,6 +154,7 @@ app.get('/autoSuggestion', function (req, res) {
 });
 
 app.get('/popup', function (req, res) {
+    "use strict";
     connection.query('SELECT SiteID, SiteName, SiteDescription, SiteURL, PicPath FROM Sites', function(err, results, fields){
         if (err) throw err;
         var JSONresult = JSON.stringify(results, null, "\t");
@@ -164,6 +169,7 @@ app.get('/popup', function (req, res) {
 });
 
 var server = app.listen(9083, function () {
+    "use strict";
     var host = server.address().address;
     var port = server.address().port;
     console.log("SmartSearch app is listening at http://%s:%s", host, port)
