@@ -206,8 +206,10 @@ define(function () {
             if (menu > 1) {
                 $('#conticheckbox').prop('checked', false);
                 if (menu >2) {
-                    currentlayerBtn = $('<button class="list-group-item btn btn-block">' + returncountr + '</button>');
-                    layerMenuItem.append(currentlayerBtn);
+                    if (returncountr) {
+                        currentlayerBtn = $('<button class="list-group-item btn btn-block">' + returncountr + '</button>');
+                        layerMenuItem.append(currentlayerBtn);
+                    }
                 }
             }
             //alert("LayerMenu Return Conti: " + returnconti);
